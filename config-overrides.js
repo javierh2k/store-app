@@ -1,4 +1,4 @@
-const configUser = require('./src/config')
+//const configUser = require('./src/config')
 
 const {
     override,
@@ -10,6 +10,6 @@ const {
   module.exports = override(
     addLessLoader({
       javascriptEnabled: true,
-      globalVars: { "@high-color": configUser.dev.color }
+      //globalVars: { "@high-color": configUser.dev.color }
     })
   );
